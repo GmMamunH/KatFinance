@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 1600px;
+    height: 842px;
+    flex-shrink: 0;
+    background-image: url(image/fb.png);
+   
+}
+
+.hbg{
+    width: 1527.061px;
+    height: 1533.351px;
+    transform: rotate(100deg);
+    flex-shrink: 0;
+
+
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    margin-left: 132px;
+    margin-right: 134px;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 28px;
+}
+
+.main-menu ul{
+    display: flex;
+    margin-top: 38px;
+    
+}
+
+.main-menu ul li{
+    margin-right: 34px;
+}
+.main-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    
+    color: #010630;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.login-singup{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    color: #010630;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 200px;
+    border: 1px solid #010630;
+    padding: 10px 25px;
+    margin-top: -28px;
+}
+
+.signup{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: inline-flex;
+    padding: 10px 25px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 200px;
+    background: #4AC5B5;  
+    margin-top: -28px;
+}
+
+.usflag{
+    margin-top: 3px; 
+}
+
+svg{
+  margin-bottom: 2px;
+
+}
+
+/*  <!-- 1st container end --> */
+
+.sc{
+    margin-top: 131px;
+}
+
+.scft{
+    color: #010731;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 79px; /* 109.722% */
+    text-transform: uppercase;
+}
+
+.sc span{
+    color: #4AC5B5;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 79px;
+    text-transform: uppercase;
+}
